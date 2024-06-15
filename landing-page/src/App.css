@@ -1,0 +1,284 @@
+.contactPagebody {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid orange; /* Changed border thickness */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact {
+  height: 40px;
+  font-size: 30px;
+}
+
+.firstnameAndLastname {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+input[type="email"],
+
+input[type="querryinput"],
+input[type="supportinput"],
+.submit,
+.supportfield {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+
+input[type="firstname"],
+input[type="lastname"],
+input[type="querryinput"] {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 100%;
+
+}
+
+.geradio,
+.suppotio {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 275px;
+}
+
+.message {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.messagefield {
+  height: 120px;
+  text-align: top; /* Set text alignment to left */
+  white-space: pre-wrap; /* Allow wrapping of long lines */
+  background-color: white;
+  border: 2px solid #ccc;
+}
+
+.submit {
+  border-radius: 10px;
+  margin-top: 15px;
+  height: 40px;
+  background-color: green;
+}
+
+.checkconsent {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.querryandsupport {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+@media screen and (width: 344px){
+  .contactPagebody {
+    background-color: white; 
+  }
+
+     
+  input[type="firstname"],
+  input[type="lastname"]{
+    background-color: white;
+    width: 100%;
+  
+  }
+  .firstnameAndLastname{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: -20px;
+
+  }
+  .firstnameclass,
+  .lastnameclass{
+    background-color: white;
+    width: 100%;
+    margin-left: 40px;
+  }
+   
+
+
+.geradio,
+.suppotio {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.querryandsupport {
+  flex-direction: column; 
+  gap: 20px;
+}
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 360px){
+  .contactPagebody {
+background-color: white; 
+  }
+input[type="firstname"],
+input[type="lastname"]{
+  background-color: white;
+  width: 100%;
+
+}
+.firstnameAndLastname{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.geradio,
+.suppotio {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.querryandsupport {
+  flex-direction: column; 
+  gap: 20px;
+}
+}
+
+@media screen and (min-width: 375px){
+  .contactPagebody {
+background-color: white; 
+  }
+input[type="firstname"],
+input[type="lastname"]{
+  background-color: white;
+  width: 100%;
+
+}
+.firstnameclass,
+.lastnameclass{
+  background-color: white;
+  margin-right: 1px;
+  width: 100%;
+}
+
+.geradio,
+.suppotio {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.querryandsupport {
+  flex-direction: column; 
+  gap: 20px;
+}
+
+}
+
+@media screen and (min-width: 412px) {
+  
+  .contactPagebody {
+    padding: 20px 40px;
+  }
+  
+
+  .firstnameAndLastname {
+    flex-direction: column; 
+    gap: 10px; 
+    background-color: white; 
+  }
+
+
+  .firstnameclass,
+  .lastnameclass{
+    background-color: white;
+    width: 100%;
+
+  }
+
+
+
+  input[type="firstname"],
+  input[type="lastname"]{
+    background-color: white;
+    width: 100%;
+  }
+  .querryandsupport {
+    flex-direction: column; 
+    gap: 20px;
+  }
+  .geradio,
+.suppotio {
+  background-color: white;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  box-sizing: border-box;
+  width: 100%;
+}
+}
+
+@media screen and (min-width: 600px) {
+  .contactPagebody {
+    padding: 20px 40px;
+    background-color: white;
+  }
+  
+  .firstnameAndLastname {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    
+    
+  }
+  .firstnameclass,
+  .lastnameclass{
+    background-color: white;
+    width: 48%;
+
+  }
+
+  .querryandsupport {
+    flex-direction: row; 
+  }
+   input[type="firstname"],
+  input[type="lastname"]{
+    background-color: white;
+    width: 100%;
+  }
+}
